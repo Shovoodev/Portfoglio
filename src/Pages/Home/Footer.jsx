@@ -51,7 +51,6 @@ function Footer() {
             </li>
             <li>
               <Link
-                activeClass="navbar--active-content"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -133,7 +132,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/toukir-islam-shovo-5b2576168/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"

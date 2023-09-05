@@ -3,7 +3,7 @@ export default function ContactMe() {
     <section id="Contact" className="contact--section">
       <div>
         <p className="sub--title">Get In Touch</p>
-        <h2>Contact Me</h2>
+        <h1>Contact Me</h1>
         <p className="text-lg">
          
         Experienced Frontend Web Developer with a strong command of HTML5, CSS, and JavaScript to create dynamic and visually appealing websites. Possesses a foundational understanding of backend development principles, enabling effective collaboration with backend teams. Proven proficiency in game development utilizing Unity and C# as hobby . A passionate learner, dedicated to blending frontend creativity with backend logic to deliver exceptional user experiences.
@@ -44,11 +44,10 @@ export default function ContactMe() {
           <label htmlFor="phone-number" className="contact--label">
             <span className="text-md">phone-number <span style={{"font-size":"10px", "color":"blue"}}>optional</span></span>
             <input
-              type="number"
+              required
               className="contact--input text-md"
               name="phone-number"
               id="phone-number"
-              required
             />
           </label>
         </div>

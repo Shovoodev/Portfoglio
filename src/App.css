@@ -107,12 +107,14 @@ h1 {
   font-size: 56px;
   font-weight: 700;
   line-height: 67px;
+  color: var(--body_color);
 }
 /* Heading 2 */
 h2 {
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
+  color: var(--body_color);
 }
 /* Heading 3 */
 h2 {
@@ -133,7 +135,7 @@ h2 {
 }
 /* Body 2 */
 .text-md {
-  color: var(--body_color);
+  text-decoration: none;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -552,6 +554,7 @@ input[type="checkbox"] {
   align-self: stretch;
 }
 .footer--items > ul {
+  color: var(--body_color);
   list-style: none;
   display: flex;
   align-items: flex-start;

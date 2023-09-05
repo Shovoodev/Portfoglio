@@ -9,8 +9,7 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section-description">
-            Full time programming with thrust for learning .....
-            <br /> Dolorum, quas. Amet soluta assumenda cum?
+            Full time programmer with thrust for learning exploring .....
           </p>
         </div>
         <button className="btn btn-primary">Get In Touch</button>

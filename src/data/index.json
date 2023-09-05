@@ -10,49 +10,50 @@
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "working on server-side software, which focuses on everything you can't see on a website. Back-end developers ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers."
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
       "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "User Experience (UX) research and design. Become immersed in the UX process of identifying problems and iterating and testing designs to find appropriate solutions. You’ll learn how to empathize with users through best-practice research approaches, and create common UX artifacts such as user personas"
     },
     {
       "id": "4",
       "src": "./img/feather-pen-1.png",
       "title": "C# game-dev with Unity",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "As a unity developer, you will be responsible for planning and implementing game functionality, building the game code, identifying bottlenecks, and ensuring the quality of the finished product."
     }
   ],
   "portfolio": [
     {
-      "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Blog",
-      "description": "This is a blogging page about teck music and entertainment . where you can write post and submit it in feed ",
-      "link": "https://react-blog-five-pi.vercel.app/"
-    },
+      
+        "id": "3",
+        "src": "./img/placeholder-image-2.png",
+        "title": "Amazon-clone",
+        "description": "Clonning amazon and make a replica of all product . using localy saved json data . localy fached . implimenting search option and make search option improved so that it show me contant in my json data lists",
+        "link": "https://amazon-clone-shovoodev.vercel.app/"
+      },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
       "title": "Registerar dashboard",
-      "description": " Use Mongobd to store the information in repositori . A curd application which is save data as cookies ",
+      "description": " Use mongobd database so my curd application can save the data in my database . and also implimenting new features olse it is save data as cookies so next time you want something to write it assists   ",
       "link": "https://registrar-khaki.vercel.app/"
     },
     {
-      "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Amazon-clone",
-      "description": "Get information about the world which is faching data from an api ",
-      "link": "https://amazon-clone-shovoodev.vercel.app/"
-    },
-    {
-      "id": "3",
+      "id": "1",
       "src": "./img/placeholder-image-2.png",
       "title": "Info World",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "information regarding the world , which is fached by an free api web server , with contact form to write directy to me as i can see you massage in my mongodb atlas project page",
       "link": "https://countries-info-ashen.vercel.app/"
+    },
+    {
+      "id": "4",
+      "src": "./img/placeholder-image.png",
+      "title": "Blog",
+      "description": "This is a blogging page about teck music and entertainment .Where you can write post and submit it in feed this is still in development ",
+      "link": "https://react-blog-five-pi.vercel.app/"
     }
   ]
   

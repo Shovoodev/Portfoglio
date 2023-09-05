@@ -4,12 +4,12 @@ export default function AboutMe() {
   return (
     <section id="AboutMe" className="about--section">
       <div className="about--section--img">
-        <img src="./img/about-me.png" alt="About Me" />
+        <img src="./img/hero_img.png" alt="About Me" />
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
           <p className="section--title">About</p>
-          <h1 className="skills-section--heading">About Me</h1>
+          <h1 className="skills--section--heading">About Me</h1>
           <p className="hero--section-description">
           Experienced Frontend Web Developer with a strong command of HTML5, CSS, and JavaScript to create dynamic and visually appealing websites. Possesses a foundational understanding of backend development principles, enabling effective collaboration with backend teams. Proven proficiency in game development utilizing Unity and C# as hobby . A passionate learner, dedicated to blending frontend creativity with backend logic to deliver exceptional user experiences.
           </p>

@@ -42,7 +42,7 @@ export default function ContactMe() {
             />
           </label>
           <label htmlFor="phone-number" className="contact--label">
-            <span className="text-md">phone-number</span>
+            <span className="text-md">phone-number <span style={{"font-size":"10px", "color":"blue"}}>optional</span></span>
             <input
               type="number"
               className="contact--input text-md"
@@ -55,10 +55,10 @@ export default function ContactMe() {
         <label htmlFor="choode-topic" className="contact--label">
           <span className="text-md">Choose a topic</span>
           <select id="choose-topic" className="contact--input text-md">
-            <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
+            <option>Topic to discuss...</option>
+            <option> About any kind of help</option>
+            <option>About any kind of information </option>
+            <option> About my life</option>
           </select>
         </label>
         <label htmlFor="message" className="contact--label">
@@ -67,12 +67,12 @@ export default function ContactMe() {
             className="contact--input text-md"
             id="message"
             rows="8"
-            placeholder="Type your message..."
+            placeholder="Why you are so cool.."
           />
         </label>
         <label htmlFor="checkboc" className="checkbox--label">
           <input type="checkbox" required name="checkbox" id="checkbox" />
-          <span className="text-sm">I accept the terms</span>
+          <span className="text-sm">I accept the terms<span style={{"font-size":"12px", "color":"blue"}}> (if not dont worry)</span></span>
         </label>
         <div>
           <button className="btn btn-primary contact--form--btn">Submit</button>

@@ -1,6 +1,8 @@
 import data from "../../data/index.json";
+import { Navigate } from "react-router-dom";
 
 export default function MyPortfolio() {
+ 
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
@@ -8,7 +10,7 @@ export default function MyPortfolio() {
           <p className="sub--title">Recent Projects</p>
           <h2 className="section--heading">My Portfolio</h2>
         </div>
-        <div>
+        <div><a className="gotogithub" href="https://github.com/Shovoodev">
           <button className="btn btn-github">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -26,6 +28,7 @@ export default function MyPortfolio() {
             </svg>
             Visit My GitHub
           </button>
+          </a>
         </div>
       </div>
       <div className="portfolio--section--container">
@@ -38,7 +41,7 @@ export default function MyPortfolio() {
               <div>
                 <h3 className="portfolio--section--title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
-              </div>
+              </div><a href={item.link}>
               <p className="text-sm portfolio--link">
                 {item.link}
                 <svg
@@ -57,6 +60,7 @@ export default function MyPortfolio() {
                   />
                 </svg>
               </p>
+              </a>
             </div>
           </div>
         ))}

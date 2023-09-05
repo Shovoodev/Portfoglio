@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import DarkMode from "../../components/DarkMode";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -35,7 +36,18 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
+        <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="heroSection"
+              className="navbar--content"
+            >
+            <img src="./img/logo.svg" alt="Logoipsum" />
+            </Link>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -103,6 +115,7 @@ function Navbar() {
       >
         Contact Me
       </Link>
+      <DarkMode/>
     </nav>
   );
 }
